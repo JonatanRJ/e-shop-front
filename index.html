@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bsale Shop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body>
+    <header>
+        <h1>Bsale Shop</h1>
+        <div id="form">
+            <input type="text" name="inputProduct" id="inputProduct" placeholder="Buscar producto">
+            <button type="button" class="btn btn-light" id="searchProduct">
+                <i class="fa fa-search"></i>
+            </button>
+        </div>
+    </header>
+    <div id="main">
+        <nav>
+            <ul id="category">
+                <a href="index.html"><li>INICIO</li></a>
+            </ul>
+        </nav>
+        <div class="card-deck"" id="products">
+        </div>
+    </div>
+    <script src="./assets/js/fetch.js"></script>
+    <script src="./assets/js/card.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
