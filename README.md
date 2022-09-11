@@ -6,7 +6,7 @@ This is an online shop where you can find a variety of products by the name or t
 - WEB: HTML CSS JS (Vanilla) 👨‍🎤
 - API Connection: fetch js 🧩
 ### Objetctives 🎯
-- Crate online shop ✔
-- connect with the API ✔
+- Create online shop ✔
+- Connect with the API ✔
 - Search by product name ✔
 - Search by category ✔
